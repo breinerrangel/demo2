@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    height: 110%;
+    margin: 0;
+}
+body{
+    background-image: url(./living-room-2732939_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 120vh;
+   
+    margin: 0;
+}
+
+
+
+
+
+nav{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 8px 0px ;
+    
+    
+    
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 40px;
+    padding: 15px 0;
+    margin-right: 20px;
+    
+    
+    
+}
+.menu li{
+    display: flex;
+    padding: 8px 10px;
+    
+}
+h2{
+    
+   position: absolute;
+    
+    
+    left:7%;
+    top: 5%;
+    font-size: 8mm;
+    
+}
+.menu li:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+#contenedor{
+   
+   
+    
+    
+   
+   
+    height: 130vh;
+    background-color: rgba(8, 8, 8, 0.685);
+    
+    
+ 
+    color: white;
+    
+    
+
+}
+.conteiner{
+   
+    padding-bottom: 240px;
+   
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner h1{
+    font-size: 15mm;
+    color:black;
+    font-family: sans-serif;
+    color: white;
+    
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 5mm;
+}
+span{
+    margin-top: 25px;
+    
+
+    
+
+}
+button{
+    margin-left: 20px;
+    padding: 10px 8px;
+    width: 230px;
+    border-radius: 18px;
+    margin-right: 20px;
+    background-color: transparent;
+    color: white;
+    border: solid 1px darkcyan;
+}
+button:hover{
+    
+    background-color: darkcyan;
+    cursor: pointer;
+    
+}
+
+    
+
+    
+
+    
+   
+
+  
+@media all and (max-width: 900px){
+
+    .boton{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    button{
+        margin-top: 20px;
+    }
+    h1{
+        text-align: center;
+        margin-top: 50px;
+    }      
+    
+    h2{
+        display: none;
+    } 
+    .menu{
+        display: none;
+    }
+    #contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }   
+     }
